@@ -1,0 +1,230 @@
+body {
+    overflow-x: hidden;
+}
+
+.material-symbols-outlined {
+    background-color: lightblue;
+    position: fixed;
+    right: 0px;
+    bottom: 1px;
+    padding: 5px;
+}
+
+header {
+    background-color: rgba(34, 193, 195, 0.8);
+    padding: 10px 15px;
+    text-align: center;
+    margin: 15px 20px;
+    width: 95%;
+    height: 120px;
+    border-radius: 20px;
+}
+
+div.name {
+    color: #0d3b66;
+}
+
+.field {
+    color: #f4d35e;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 10px;
+    margin: 15px;
+    color: #0d3b66;
+}
+
+nav a:hover {
+    color: #f4d35e;
+}
+
+#about-me {
+    background-color: #ee964b;
+    margin: 20px 15px;
+    width: 95%;
+    height: 250px;
+    padding: 20px 15px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+span img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+#Skills {
+    background-image: url('assets/img/images.jpeg');
+    background-size: contain;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+.skills-info {
+    position: relative;
+    bottom: 15px;
+    background-color: aliceblue;
+    padding: 52px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.skills-info :hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+.skills-info span {
+    padding: 15px;
+    margin: 25px;
+    background-color: green;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #333;
+    color: white;
+}
+
+#Projects {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(238, 234, 234, 0.2);
+    border-radius: 8px;
+}
+
+.cards {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    width: 200px;
+    height: 100px;
+}
+
+.cocktail-shop,
+.solo-learn,
+.to-do-list {
+    background-color: #ffcc5c;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#Contact {
+    background-color: #ffa69e;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    font-size: x-large;
+}
+
+.input-Form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.input-Form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-Form input[type="text"],
+.input-Form input[type="email"],
+.input-Form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-Form input:focus {
+    background-color: #45a049;
+    color: white;
+    font-size: 25px;
+}
+
+.input-Form textarea {
+    height: 50px;
+    resize: vertical;
+}
+
+.input-Form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+ul.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.social-media li {
+    display: inline;
+}
+
+ul.social-media li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul.social-media li a:hover {
+    color: #f4d35e;
+}
