@@ -71,10 +71,9 @@ span img {
     padding: 52px;
     border-radius: 15px;
     transition: transform 0.3s ease-in-out;
-    
 }
 
-.skills-info :hover {
+.skills-info:hover {
     cursor: pointer;
     transform: translateY(-20px);
 }
@@ -87,9 +86,8 @@ span img {
 
 .fa {
     padding: 15px;
-    font-size: 15px;
-    width: 15px;
-    height: 15px;
+    font-size: 24px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -204,25 +202,27 @@ span img {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #0d3b66;
+    color: white;
 }
 
 ul.social-media {
     list-style-type: none;
     padding: 0;
+    margin: 10px 0;
 }
 
 ul.social-media li {
-    display: inline;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 ul.social-media li a {
+    color: white;
+    font-size: 24px;
     text-decoration: none;
-    color: inherit;
 }
 
 ul.social-media li a:hover {
