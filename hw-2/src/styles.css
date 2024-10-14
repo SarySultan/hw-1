@@ -1,230 +1,182 @@
-body {
-    overflow-x: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+html {
+    scroll-behavior: smooth;
 }
 
-.material-symbols-outlined {
-    background-color: lightblue;
-    position: fixed;
-    right: 0px;
-    bottom: 1px;
-    padding: 5px;
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 90px;
+    background-color: #60838c;
+    color: #da4242;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+section,
+footer {
+    border-radius: 15px;
+    padding: 15px;
 }
 
 header {
-    background-color: rgba(34, 193, 195, 0.8);
-    padding: 10px 15px;
+    background-color: #6c4e4e;
+    height: 180px;
     text-align: center;
-    margin: 15px 20px;
-    width: 95%;
-    height: 120px;
-    border-radius: 20px;
 }
 
-div.name {
-    color: #0d3b66;
+header .user-name {
+    font-size: 48px;
+    color: #ad1414;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
 }
 
-.field {
-    color: #f4d35e;
+header .user-title {
+    color: #b9a2a2;
 }
 
-nav a {
+header nav li {
     display: inline-block;
-    text-decoration: none;
-    padding: 0px 10px;
-    margin: 15px;
-    color: #0d3b66;
+    padding: 10px 20px;
 }
 
-nav a:hover {
-    color: #f4d35e;
+header nav li a {
+    color: #fff;
+    text-transform: uppercase;
 }
 
-#about-me {
-    background-color: #ee964b;
-    margin: 20px 15px;
-    width: 95%;
-    height: 250px;
-    padding: 20px 15px;
-    text-align: center;
-    letter-spacing: 3px;
+header nav li a:hover {
+    color: #4400ff;
+    text-transform: uppercase;
 }
 
-span img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-}
-
-#Skills {
-    background-image: url('assets/img/images.jpeg');
-    background-size: contain;
-    text-align: center;
-    margin: 20px;
-    padding: 15px;
-}
-
-.skills-info {
-    position: relative;
-    bottom: 15px;
-    background-color: aliceblue;
-    padding: 52px;
-    border-radius: 15px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.skills-info:hover {
-    cursor: pointer;
-    transform: translateY(-20px);
-}
-
-.skills-info span {
-    padding: 15px;
-    margin: 25px;
-    background-color: green;
-}
-
-.fa {
-    padding: 15px;
-    font-size: 24px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+header .scroll-top {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    background-color: #ff0000;
+    color: #2c2c2c;
+    padding: 8px;
     border-radius: 50%;
 }
 
-.fa:hover {
-    opacity: 0.7;
+section {
+    margin: 60px 0;
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+.section-title {
+    font-size: 32px;
+    text-transform: uppercase;
 }
 
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
+.about-section {
+    background-color: #817d7d;
+    color: #2c2c2c;
 }
 
-.fa-github {
-    background: #333;
-    color: white;
+.about-section p {
+    font-size: 18px;
 }
 
-#Projects {
-    background-color: whitesmoke;
-    padding: 15px;
-    margin: 15px;
-    box-shadow: 0 4px 8px rgba(238, 234, 234, 0.2);
-    border-radius: 8px;
-}
-
-.cards {
-    display: inline-block;
-    margin: 15px;
-    padding: 15px;
-    width: 200px;
-    height: 100px;
-}
-
-.cocktail-shop,
-.solo-learn,
-.to-do-list {
-    background-color: #ffcc5c;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-#Contact {
-    background-color: #ffa69e;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 8px;
-}
-
-.text {
-    text-align: center;
-    font-size: x-large;
-}
-
-.input-Form {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-}
-
-.input-Form label {
-    display: block;
-    margin-bottom: 8px;
+.about-section p span {
     font-weight: bold;
+    color: #000969;
 }
 
-.input-Form input[type="text"],
-.input-Form input[type="email"],
-.input-Form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.about-section img {
+    width: 160px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
 }
 
-.input-Form input:focus {
-    background-color: #45a049;
-    color: white;
-    font-size: 25px;
+.skills-section {
+    background-color: #2c2c2c;
+    padding-bottom: 30px;
 }
 
-.input-Form textarea {
-    height: 50px;
-    resize: vertical;
+.skills-section .skills-list {
+    margin: 0 15px;
+    padding: 10px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(221, 221, 221, 0.9);
+    border-radius: 12px;
+    position: relative;
 }
 
-.input-Form button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 14px 20px;
-    text-align: center;
-    text-decoration: none;
+.skills-section .skills-list div {
+    background-color: #2c2c2c;
+    color: #bea0a0;
+    margin: 3px;
+    padding: 12px 20px;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
+    border-radius: 12px;
     cursor: pointer;
 }
 
-footer {
-    text-align: center;
+.skills-section .skills-list div:hover {
+    background-color: #35e174;
+    color: #ad1414;
+}
+
+.projects-section {
+    background-color: #fff;
+    color: #2c2c2c;
+}
+
+.projects-section .projects-list {
+    position: relative;
+}
+
+.projects-section .project-card {
+    width: 250px;
+    background-color: #35e174;
     padding: 10px;
-    background-color: #0d3b66;
-    color: white;
+    border-radius: 12px;
+    margin-bottom: 15px;
 }
 
-ul.social-media {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0;
+.contact-section {
+    background-color: #fafafa;
+    color: #2c2c2c;
 }
 
-ul.social-media li {
-    display: inline-block;
-    margin: 0 15px;
+.contact-section form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
 }
 
-ul.social-media li a {
-    color: white;
-    font-size: 24px;
-    text-decoration: none;
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
 }
 
-ul.social-media li a:hover {
-    color: #f4d35e;
+.contact-section form input[type="submit"] {
+    padding: 10px 20px;
+    border: 2px solid #c8c8c8;
+    color: #d3d3d3;
+}
+
+footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    text-align: center;
 }
