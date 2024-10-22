@@ -1,4 +1,4 @@
-const TASKS_KEY = "TASKS_DB";
+const TASKS_KEY = "TASKS_.DB";
 let taskList = [];
 
 // Initialize taskList from localStorage if available
